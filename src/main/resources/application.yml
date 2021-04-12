@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: WS-MONITOR
+  cloud:
+    kubernetes:
+      discovery:
+        all-namespaces: true
+        service-labels:
+          spring-boot: true
+monitor:
+  k8s:
+    service: ws-monitor-service

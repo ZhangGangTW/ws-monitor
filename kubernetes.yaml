@@ -34,7 +34,7 @@ metadata:
   labels:
     app: ws-monitor
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: ws-monitor

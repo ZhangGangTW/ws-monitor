@@ -34,7 +34,7 @@ metadata:
   labels:
     app: ws-monitor
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: ws-monitor
@@ -64,3 +64,4 @@ spec:
     - protocol: TCP
       port: 9080
       targetPort: 8080
+      name: tcp-http

@@ -45,7 +45,7 @@ spec:
     spec:
       containers:
         - name: ws-monitor-container
-          image: hataketed/ws-monitor:1.1.0
+          image: hataketed/ws-monitor:2.0.0
           ports:
             - containerPort: 8080
           env:

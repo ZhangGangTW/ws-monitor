@@ -10,3 +10,6 @@ spring:
 monitor:
   k8s:
     service: ws-monitor-service
+server:
+  servlet:
+    context-path: /monitor

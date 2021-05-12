@@ -7,9 +7,9 @@ spring:
         all-namespaces: true
         service-labels:
           spring-boot: true
+  boot:
+    admin:
+      context-path: /monitor
 monitor:
   k8s:
     service: ws-monitor-service
-server:
-  servlet:
-    context-path: /monitor
